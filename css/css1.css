@@ -1,0 +1,92 @@
+body{
+    font-family: 'Pacifico', cursive;
+    padding: 0;
+    margin: 0;
+    background-color: #201512;
+    font-size: 30px;
+}
+
+.wrapper{
+    margin: auto;
+    max-width: 1200px;
+}
+.header{
+    padding: 0px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.back:hover{
+    box-shadow: 3px 3px 5px  black;
+}
+.back{
+    text-align: center;
+    color: white;
+}
+.top-menu{
+    margin: 10px auto;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.back{
+    padding: 10px;
+   
+}
+.main{
+    max-width: 900px;
+    margin:  auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  
+}
+
+a:hover{
+    display: block;
+}
+a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu-item{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin: 40px auto;
+    padding: 10px;
+    color: white;
+}
+.creator{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.creator:hover .milaha{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+.creator:hover{
+    box-shadow: 3px 3px 5px 5px black;
+}
+.footer{
+    color:white;
+    padding: 10px;
+    height: 15px;
+    max-width: 1200px; 
+    }
+.milaha{
+    left: 370px;
+        z-index: 1;
+        position: absolute;
+        bottom: 60px;
+        visibility:hidden;
+    }    

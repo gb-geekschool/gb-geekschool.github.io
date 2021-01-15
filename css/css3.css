@@ -1,0 +1,168 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    overflow: hidden;
+    position: relative;
+    height: 596px;
+    background-color: #87509c;
+}
+.logo{
+    position: absolute;
+    top: 57px;
+    left: 211px;
+    width: 118px;
+    height: 37px;
+}
+.title{
+    text-align: center;
+    width: 906px;
+    margin: 239px auto;
+    margin-bottom: 0;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f7f3ea;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 54px auto;
+    width: 293px;
+height: 70px;
+background-color: #eb7d4b;
+}
+.button:hover{
+    box-shadow: 3px 3px 5px  black;
+    margin: 58px auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    position: absolute;
+    top: 60px;
+    right: 195px;
+    width: 416px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+
+}
+nav li a{
+    padding: 10px;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+}
+nav a:hover{
+    border-radius: 5px;
+    background-color: #643a79;;
+}
+.services{
+    position: relative;
+    height: 747px;
+    background-color:#17c2a4;
+}
+.name{
+    top: 119px;
+    left: 493px;
+    position: absolute;
+    font-size: 40px;
+line-height: 29px;
+font-weight: 700;
+letter-spacing: 0.1em;
+color: #ffffff;
+margin: 0 auto;
+margin-bottom: 0;
+}
+hr{
+    position: absolute;
+    top: 169px;
+    left: 677px;
+    width: 87px;
+height: 4px;
+opacity: 0.14;
+background-color: #000000;
+}
+.text{
+    text-align: center;
+    font-size: 18px;
+line-height: 26px;
+font-weight: 400;
+letter-spacing: 0.02em;
+color: #ffffff;
+position: absolute;
+top: 196px;
+left: 419px;
+}
+
+.txt{
+    position: absolute;
+    top: 500px;
+    left: 120px;
+}
+.img{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+.img1{
+    position: absolute;
+    top: 360px;
+    left: 530px;
+}
+.txt1{
+    position: absolute;
+    top: 500px;
+    left: 470px;
+}
+.img2{
+    position: absolute;
+    top: 360px;
+    left: 820px;
+}
+    .txt2{
+        position: absolute;
+        top: 500px;
+        left: 800px;
+    }
+    .img3{
+        position: absolute;
+        top: 360px;
+        left: 1170px;
+    }
+    .txt3{
+        position: absolute;
+        top: 500px;
+        left: 1130px;
+    }
+.t{
+    text-align: center;
+    font-size: 24px;
+line-height: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+line-height: 24px;
+font-weight: 300;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
